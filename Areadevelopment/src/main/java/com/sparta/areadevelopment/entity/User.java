@@ -95,10 +95,6 @@ public class User extends Timestamped {
         this.refreshToken = refreshToken;
     }
 
-    public boolean getExpired(){
-        return this.expired;
-    }
-
     public void setExpired(boolean b) {
         this.expired = b;
     }

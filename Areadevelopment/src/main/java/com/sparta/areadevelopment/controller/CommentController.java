@@ -34,7 +34,7 @@ public class CommentController {
      *
      * @param commentService 댓글기능에 대한 서비스 계층 객체입니다.
      */
-    private CommentController(CommentService commentService) {
+    public CommentController(CommentService commentService) {
         this.commentService = commentService;
     }
 

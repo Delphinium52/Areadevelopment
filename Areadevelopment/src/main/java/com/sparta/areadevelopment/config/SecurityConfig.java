@@ -55,6 +55,7 @@ public class SecurityConfig {
         return authenticationConfiguration.getAuthenticationManager();
     }
 
+
     /**
      * 시큐리티 필터 설정
      */

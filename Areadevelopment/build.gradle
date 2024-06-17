@@ -24,6 +24,7 @@ repositories {
 dependencies {
     //이메일 인증
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '3.0.5'
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
 
 
     // JWT
@@ -62,6 +63,8 @@ dependencies {
     
     //mockito
     testImplementation 'org.mockito:mockito-core:4.8.0'
+    testImplementation 'org.springframework.security:spring-security-test'
+
 }
 
 tasks.named('test') {

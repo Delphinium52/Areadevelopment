@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="User Entity 테스트" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-16T22:25:16" hostname="DESKTOP-81F2C9L" time="0.029">
-  <properties/>
-  <testcase name="softDelete Test" classname="com.sparta.areadevelopment.EntityTest$UserEntity" time="0.029"/>
-  <system-out><![CDATA[null
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
